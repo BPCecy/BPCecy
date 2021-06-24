@@ -1,10 +1,76 @@
-- 👋 Hi, I’m @BPCecy
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<!DOCTYPE html>
+<html>
 
-<!---
-BPCecy/BPCecy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+						<head >
+												<style>
+													body {background:#ffd1b3; font-size: 20px;color:#004d00; }
+												</style>
+
+												<title id="title">Survey Form</title>
+												<h1>YOU</h1>
+												<p id="description">Tell us more!</p>
+												<link rel="stylesheet" type="text/css" href="style.css">
+						</head>
+
+						<body>
+						<br>
+		      <div id="principal">
+											<form id="survey-form">
+													<div id="name">
+																		<label id="name-label" for="Name">Name</label>
+																		<input type="text" name="Name" value=""placeholder="Enter your name" id="Name">
+													</div>
+						<br>
+				
+													<div id="email">
+																	<label id="email-label" for="Email">Email</label>
+																	<input type="email" name="Email" id="" placeholder="Enter your Email" max="13" min="10" value="" >
+													</div>
+						<br>
+													<div id="number">
+																	<label id="number-label" for="Phone">Phone Number</label>
+																		<input type="number" min="" max="" name="Phone" placeholder="Enter your Phone Number" value="" >
+														</div>
+						<br>
+													<div>
+																Country:
+																<select id="dropdown">
+																	<option value="Cuba">Cuba</option>
+																	<option value="Argentina">Argentina</option>
+																	<option value="Germany">Germany</option>
+																	<option value="Italy">Italy</option>
+																</select>
+												</div>
+						<br>						
+													<div>
+				           <label >Sex</label><br>
+																<input type="radio" name="sex" value="Male" checked="">Male <br>
+																<input type="radio" name="sex" value="Female" checked="">Female<br>
+																<input type="radio" name="sex" value="Other" checked="">Other <br>
+												</div>
+      <br>
+												<div>
+														<label>What is your favorite type of music ?</label><br>
+														<input type="checkbox" value="Jazz">Jazz<br>
+														<input type="checkbox" value="Blues">Blues<br>
+														<input type="checkbox" value="Rock">Rock<br>
+												</div>
+						<br>
+			</form>
+
+		<form>		
+												<div>
+														<h2>Any comments or sugestions?</h2>
+												</div>
+
+													<label for="comments"> </label>
+													<textarea name="comments" id="comments" cols="50" rows="5" placeholder="Enter your comment here..."></textarea>
+							<br>
+													<input id="submit" type="submit" name="Submit" value="Submit">
+			</form>
+
+					</div>
+
+</body>
+
+</html>
