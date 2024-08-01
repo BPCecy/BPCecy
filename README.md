@@ -1,5 +1,5 @@
 # 💫 About Me:
-📊 Data enthusiast | Python lover | Lifelong learner<br><br><br>🚀 I specialize in Analytics .<br>🌐  My favorite? Music, travels & food.<br>📚 I’m a lifelong learner. 
+📊 Data enthusiast | Business Intelligence lover | Lifelong learner<br><br><br>🚀 I specialize in Analytics .<br>🌐  My favorite? Music, travels & food.<br>📚 I’m a lifelong learner. 
 
 
 ## 🌐 Socials:
